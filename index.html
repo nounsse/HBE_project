@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="">
+      <meta name="author" content="nfaraj" >
+      
+      <link rel="icon" type="image/png" href="img/P5_mini_logo.png" />
+      <link rel="shortcut icon" href="img/P5_mini_logo.ico" type="image/x-icon" />
+
+      <title>A Bayesian Hyperprior Approach for Joint Image Denoising and Interpolation, with an Application to HDR Imaging</title>
+      <!-- Bootstrap Core CSS -->
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <!-- Custom CSS -->
+      <link href="css/4-col-portfolio.css" rel="stylesheet">
+      <!-- Plugin CSS -->
+      <!-- Custom Fonts -->
+      <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+      <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+      <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+      <!-- Plugin CSS -->
+      <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+      <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+   </head>
+   <body>
+      <!-- Page Content -->
+      <div class="container">
+         <h4>IEEE Transactions on Computational Imaging, 2017</h4>
+         <!-- <img class="img-responsive" src="img/P5_logo.png" alt="Université Paris Descartes" />-->
+         <!-- Page Heading -->
+         <section >
+            <div class="container">
+               <div class="row">
+                  <div class="col-lg-12">
+                     <h1 class="page-header">
+                        A Bayesian Hyperprior Approach for Joint Image Denoising and Interpolation, with an Application to HDR Imaging <br>
+                        <small class="authors">
+                              <a href="http://aguerreb.github.io/" target="_blank">Cecilia Aguerrebere<sup>1</sup></a>, 
+                              <a href="http://perso.telecom-paristech.fr/~almansa/HomePage/" target="_blank">Andr&eacute;s Almansa<sup>2</sup></a>,
+                              <a href="https://delon.wp.mines-telecom.fr/" target="_blank">Julie Delon<sup>3</sup></a>,
+                              <a href="http://perso.telecom-paristech.fr/~gousseau/" target="_blank">Yann Gousseau<sup>4</sup></a> and 
+                              <a href="http://iie.fing.edu.uy/~pmuse/" target="_blank">Pablo Mus&eacute;<sup>5</sup></a>
+                        </small>
+                     </h1>
+                     <div  class="affiliation"><sup>1</sup>Duke University</br></div>
+                     <div  class="affiliation"><sup>2</sup>LTCI - Laboratoire Traitement et Communication de l'Information</br></div>
+                     <div  class="affiliation"><sup>3</sup>Laboratoire MAP5 (UMR CNRS 8145), Universit&eacute; Paris Descartes, Sorbonne Paris Cit&eacute;</br></div>
+                     <div  class="affiliation"><sup>4</sup>T&eacute;l&eacute;com ParisTech</br></div>
+                     <div  class="affiliation"><sup>5</sup> IIE - Instituto de Ingenier&iacute;a El&eacute;ctrica </br></div>                     
+                     </br>
+                     <img class="img-responsive" src="img/result.png" alt="Stochastic Film Grain Generation" />
+                     <div class="img_legend"><b>Real data. Left:</b> Tone mapped version of the HDR image obtained by the proposed approach and its corresponding mask of unknown (black) and
+well-exposed (white) pixels. <b>Right:</b> Comparison of the results obtained by the proposed approach (first row) and PLEV (second row) in the extracts indicated
+in the top image. Please see the digital copy for better details reproduction.
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- /.row -->
+         <section >
+            <div class="container">
+               <div class="row">
+                  <div class="col-lg-12">
+                     <h2 class="section-heading">Abstract</h2>
+                     <hr>
+                     <p align="justify"> Recently, impressive denoising results have been achieved by Bayesian approaches which assume Gaussian models for the image patches. 
+                     This improvement in performance can be attributed to the use of per-patch models. Unfortunately such an approach is particularly unstable for most inverse 
+                     problems beyond denoising. In this work, we propose the use of a hyperprior to model image patches, in order to stabilize the estimation procedure. 
+                     There are two main advantages to the proposed restoration scheme: Firstly it is adapted to diagonal degradation matrices, and in particular to missing 
+                     data problems (e.g. inpainting of missing pixels or zooming). Secondly it can deal with signal dependent noise models, particularly suited to digital cameras. 
+                     As such, the scheme is especially adapted to computational photography. In order to illustrate this point, we provide an application to high dynamic range 
+                     imaging from a single image taken with a modi?ed sensor, which shows the effectiveness of the proposed scheme. 
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section >
+            <div class="container">
+               <h2 class="section-heading">Download</h2>
+               <hr>
+               <ul>
+                  <li><a href="resources/hpnlb_final.pdf">Preprint (.pdf)</a></li>
+                  <li><a href="#" >C++ source code for image denoising</a></li>
+                  <li><a href="#" >C++ source code for HDR images</a></li>
+               </ul>
+            </div>
+         </section>
+
+         <section >
+            <div class="container">
+               <div class="row">
+                  <div class="col-lg-12">
+                     <h2 class="section-heading">Contact</h2>
+                     <hr>
+                     <p align="justify"> 
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <footer text-align="center">
+         Copyright MAP5 2017
+         </footer>
+      <!-- /.container -->
+      <!-- jQuery -->
+      <script src="vendor/jquery/jquery.min.js"></script>
+      <!-- Bootstrap Core JavaScript -->
+      <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+      <!-- Plugin JavaScript -->
+      <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+      <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+      <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+      <!-- Theme JavaScript -->
+      <script src="js/creative.min.js"></script>
+   </body>
+</html>
